@@ -1,0 +1,27 @@
+{
+  "name": "chelshaw.github.io",
+  "version": "1.0.0",
+  "description": "Chelsea Shaw's Playground Website",
+  "main": "index.js",
+  "scripts": {
+    "style": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "dev": "npx tailwindcss -i ./input.css -o ./src/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chelshaw/chelshaw.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "@chelshaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chelshaw/chelshaw.github.io/issues"
+  },
+  "homepage": "https://github.com/chelshaw/chelshaw.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.1"
+  }
+}
